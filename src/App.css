@@ -25,7 +25,12 @@
     justify-content: center;
   }
   .title{
-    font-size:20px;
+    position: relative;
+    width: 80%;
+    text-align: center;
+    left:0%;
+    top:10px;
+    transform: translate(0%);
   }
   
 }

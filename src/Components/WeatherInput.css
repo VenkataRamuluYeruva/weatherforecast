@@ -41,3 +41,16 @@
 .Weather-input button:hover{
    color: black;
 }
+@media screen and (max-width: 768px){
+    .input-container{
+        position: relative;
+        width:80%;
+        margin:10px;
+        align-items: center;
+        left: 0%;
+        transform: translate(0%);
+    }
+    input{
+        width: 100%;
+    }
+}

@@ -46,9 +46,34 @@
     color:white;
   }
   
-  @media (max-width: 768px) {
-    .forecast-item {
-      width: 100%;
-    }
+ @media screen and (max-width: 768px){
+  .weather-forecast {
+    position:relative;
+    left:0%;
+    margin-top:5%;
   }
   
+  .forecast-list {
+    display:grid;
+    grid-template-columns: auto auto;
+  }
+  .forecast-item {
+    width: 150px;
+  }
+ }
+ @media screen and (max-width:400px){
+  .weather-forecast {
+    position:relative;
+    left:0%;
+    margin-top:5%;
+    margin-bottom: 20px;
+  }
+  
+  .forecast-list {
+    display:flex;
+    flex-direction: column;
+  }
+  .forecast-item {
+    width: 250px;
+  }
+ }
