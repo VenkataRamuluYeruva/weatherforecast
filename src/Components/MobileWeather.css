@@ -1,0 +1,141 @@
+.Mobile-Container{
+    background-color:#F6F5F5;
+    border-radius: 25px;
+    width:315px;
+    height:550px;
+    position:absolute;
+    top:18%;
+    left: 14%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border:2px solid #577B8D;
+    border-top: none;
+}
+.mobile-border{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin:10px;
+    width:94%;
+    height:95%;
+    border-radius: 15px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom:5px;
+}
+.header .dot{
+    width:8px;
+    height:8px;
+    border-radius: 50%;
+    background-color:#373A40;
+    margin-right:15px;
+}
+.header .horizontal-bar{
+    width:80px;
+    height:5px;
+    border-radius:15px;
+    background-color:#373A40;
+}
+.center{
+    position: relative;
+    width:93%;
+    height:94%;
+    margin:10px;
+    border-radius:5px;
+    background-color:#5068A9;
+    box-shadow: inset rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;;
+}
+.header-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    color:rgba(255,255,255,0.7);
+}
+.header-icons span{
+    font-size: 13px;
+    margin: 0px 2px;
+}
+.date-time{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:-50px;
+}
+.date-time .time{
+    font-size: 70px;
+    color: white;
+}
+.date-time .date{
+    margin-top: -83px;
+    font-family: monospace;
+    color: white;
+    font-size:15px;
+}
+.location-name{
+    margin-top:-5px;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom:0px;
+    color:#F875AA;
+}
+.temperature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.temperature .degree,.temperature .weathername{
+    position:relative;
+    font-size:25px;
+    color: white;
+    margin: 0px;
+}
+/* .temperature .degree{
+    margin-left:170px;
+} */
+.temperature .weathername{
+    font-size:20px;
+}
+.temperature img{
+    width:120px;
+    height:120px;
+}
+.temperature .weather-img{
+    width:120px;
+    height:120px;
+}
+.otherdates{
+    display:flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top:25px;
+    margin-bottom:-15px;
+    height:35px;
+    width:90%;
+    background-color:#ECF9FF;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    color:#579BB1;
+}
+.otherdates img{
+    width:28px;
+    height: 28px;
+}
+.footer{
+    background-color: wheat;
+    width: 100%;
+
+}
+
+@media  screen and (max-width: 768px){
+    .Mobile-Container{
+        position: relative;
+        align-items: center;
+        left: 0%;
+    }
+}

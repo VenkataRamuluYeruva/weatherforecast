@@ -1,0 +1,56 @@
+.input-container{
+    position:absolute;
+    top: 7%;
+    left:50%;
+    transform: translateX(-50%);
+    width:700px;
+    background-color: white;
+    height:50px;
+    align-items: center;
+    border-radius:10px;
+    padding:0px 10px;
+}
+.Weather-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Weather-input input{
+    width: 90%;
+    height:80%;
+    border: none;
+    outline: none;
+    margin-top: 12px;
+    font-size: 16px;
+    padding:5px;
+}
+.Weather-input button{
+    border: none;
+    text-align: center;
+    outline: none;
+    margin-top:10px;
+    font-size: 18px;
+    color:#749BC2;
+    cursor: pointer;
+    background-color: white;
+    padding:5px;
+    border-radius:50px;
+}
+.Weather-input button:hover{
+   color: black;
+}
+@media screen and (max-width: 768px){
+    .input-container{
+        position: relative;
+        width:80%;
+        margin:10px;
+        align-items: center;
+        left: 0%;
+        transform: translate(0%);
+    }
+    input{
+        width: 100%;
+    }
+}
