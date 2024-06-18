@@ -16,7 +16,7 @@ function App() {
 
   async function getWeatherData(location) {
     try {
-      const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=094b8fd5531e1870279f58b241957f6f`);
+      const response = await fetch(`https://api.openweathermap.org/data/2.5/forecast?q=${location}&appid=${API-KEY}`);
         
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
